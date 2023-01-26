@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+dataset_root: data/train
+opt.select_data: ['RGB']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    data/train	 dataset: RGB
+sub-directory:	/RGB	 num samples: 222
+num total samples of RGB: 222 x 1.0 (total_data_usage_ratio) = 222
+num samples of RGB per batch: 4 x 1.0 (batch_ratio) = 4
+--------------------------------------------------------------------------------
+Total_batch_size: 4 = 4
+--------------------------------------------------------------------------------
+dataset_root:    data/valid	 dataset: /
+sub-directory:	/.	 num samples: 225
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: data/train
+opt.select_data: ['RGB']
+opt.batch_ratio: ['1.0']
+--------------------------------------------------------------------------------
+dataset_root:    data/train	 dataset: RGB
+sub-directory:	/RGB	 num samples: 222
+num total samples of RGB: 222 x 1.0 (total_data_usage_ratio) = 222
+num samples of RGB per batch: 2 x 1.0 (batch_ratio) = 2
+--------------------------------------------------------------------------------
+Total_batch_size: 2 = 2
+--------------------------------------------------------------------------------
+dataset_root:    data/valid	 dataset: /
+sub-directory:	/.	 num samples: 225
+--------------------------------------------------------------------------------

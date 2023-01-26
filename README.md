@@ -1,0 +1,1 @@
+python cvpr20-scatter-text-recognizer/train.py --train_data data/train --valid_data data/valid --select_data RGB --batch_ratio 1.0 --sensitive

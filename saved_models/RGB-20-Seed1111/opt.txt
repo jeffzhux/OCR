@@ -1,0 +1,76 @@
+------------ Options -------------
+exp_name: RGB-20-Seed1111
+train_data: data/train
+valid_data: data/valid
+manualSeed: 1111
+workers: 0
+batch_size: 4
+num_iter: 1000000
+valInterval: 500
+saved_model: 
+FT: False
+adam: False
+lr: 1
+beta1: 0.9
+rho: 0.95
+eps: 1e-08
+grad_clip: 5
+select_data: ['RGB']
+batch_ratio: ['1.0']
+total_data_usage_ratio: 1.0
+batch_max_length: 35
+imgH: 32
+imgW: 100
+rgb: False
+character: 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+sensitive: True
+PAD: False
+data_filtering_off: True
+num_fiducial: 20
+input_channel: 1
+output_channel: 512
+hidden_size: 512
+log: ./saved_models/RGB-20-Seed1111
+lambda_ctc: 0.1
+lambda_attn: 1.0
+num_gpu: 1
+num_class: 96
+---------------------------------------
+------------ Options -------------
+exp_name: RGB-20-Seed1111
+train_data: data/train
+valid_data: data/valid
+manualSeed: 1111
+workers: 0
+batch_size: 2
+num_iter: 1000000
+valInterval: 500
+saved_model: 
+FT: False
+adam: False
+lr: 1
+beta1: 0.9
+rho: 0.95
+eps: 1e-08
+grad_clip: 5
+select_data: ['RGB']
+batch_ratio: ['1.0']
+total_data_usage_ratio: 1.0
+batch_max_length: 10
+imgH: 32
+imgW: 100
+rgb: False
+character: 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+sensitive: True
+PAD: False
+data_filtering_off: True
+num_fiducial: 20
+input_channel: 1
+output_channel: 512
+hidden_size: 512
+log: ./saved_models/RGB-20-Seed1111
+lambda_ctc: 0.1
+lambda_attn: 1.0
+num_gpu: 1
+num_class: 96
+---------------------------------------
