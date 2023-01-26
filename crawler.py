@@ -13,7 +13,7 @@ def img2byte(img):
     is_success, img_arr = cv2.imencode('.jpg', img)
     return img_arr.tobytes()
 
-env = lmdb.open('./data/train/RGB')
+env = lmdb.open('./data/valid')
 with env.begin(write=True) as txn:
     index = 0
     for j in range(5):
