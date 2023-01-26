@@ -11,7 +11,6 @@ class ResNet_FeatureExtractor(nn.Module):
         
     def forward(self, input):
         output = self.ConvNet(input)
-        print(f'output size : {output.size()}')
         return self.TextAttentionModule(output)
 
 class BasicBlock(nn.Module):

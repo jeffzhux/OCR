@@ -159,8 +159,6 @@ class LmdbDataset(Dataset):
                     index += 1  # lmdb starts with 1
                     label_key = 'label-%09d'.encode() % index
                     # label = txn.get(label_key).decode('utf-8')
-
-                    label_key = 'label-%09d'.encode() % index
                     label = txn.get(label_key).decode()
 
 
