@@ -1,4 +1,5 @@
 .venv
 saved_models
+data/
 data/train/
 saved_models/
